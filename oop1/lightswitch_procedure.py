@@ -1,4 +1,4 @@
-#lightswith_procedure.py
+#lightswitch_procedure.py
 #สร้างฟังก์ชัน เปิด ปิดไฟ
 #ฟังก์ชันเปิดไฟ
 
