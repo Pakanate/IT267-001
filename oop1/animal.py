@@ -17,6 +17,8 @@ class Animal:
         print(f"colour: {self.colour}")
         print(f"age: {self.age}")
 
+    def __del__(self):
+        print(f'Object was destroyed')
 #create object
 if __name__ == "__main__":
     Animal.animal = "FISH"
