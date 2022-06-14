@@ -1,0 +1,2 @@
+git config --global user.email "620108020002@dpu.ac.th"
+git config --global user.name "Pakanate"

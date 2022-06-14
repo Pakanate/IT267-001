@@ -13,7 +13,7 @@ class LightSwitch():
         print(f"status = {self.switch_status}")
 
     #สร้างวัตถุ (Object) จากแม่พิมพ์ (Class)
-    switch_obj = lightSwitch()
+    switch_obj = LightSwitch()
 
     #เรียกใช้เมธอด/ฟังก์ชัน
     switch_obj.show()#False
