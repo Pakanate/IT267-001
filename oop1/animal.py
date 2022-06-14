@@ -31,10 +31,23 @@ if __name__ == "__main__":
     drac.breed = "CATFISH"
     drac.print_detail()
 
-
+    
     #เรียกดูข้อมูลของ object ผ่านทางชื่อclass
     Animal.print_detail(ula) #เหมือน ula.print_detail()
     Animal.print_detail(drac)#เหมือน drac.print_detail()
+
+    #เรียกดูclass varibaleทั้งหมด
+    print(f'{Animal.__dict__}')
+
+
+    #เรียกดู Intsance varibale
+    print(f'{ula.__dict__}')
+
+    peter = Animal()
+    peter.new_animal("Peter", "Parrot", "green yellow red", 2)
+    #เพิ่มattribute to peter
+    peter.legs = 2
+    print(f'Peter has {peter.legs} legs')
+    print(f'{peter.__dict__}')
+   
     
-
-
