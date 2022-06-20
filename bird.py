@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print(my_bird.bird_name)
 
     #เรียก instance variable
-    #print(Bird.color)#error
+    #  print(Bird.color)#error
     
     #เรียก ต้องมีชื่อวัตถุ.isinstance_variable
     print(my_bird.color)
