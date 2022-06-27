@@ -3,21 +3,21 @@ class Area:
         self.__base = base
         self.__high = high
 
-@property
-def base(self):
-    return self.__base
-@property
-def high(self):
-    return self.__high
+    @property
+    def base(self):
+        return self.__base
+    @property
+    def high(self):
+        return self.__high
 
-#setter base, high
-@base.setter
-def base(self,value):
-    self.__base = value
-    
-@high.setter
-def high(self,value):
-    self.__high = value
-#common method
-def compute_area(self):
-    return (0.5 * self.base * self.high)
+    #setter base, high
+    @base.setter
+    def base(self,value):
+        self.__base = value
+        
+    @high.setter
+    def high(self,value):
+        self.__high = value
+    #common method
+    def compute_area(self):
+        return (0.5 * self.base * self.high)
